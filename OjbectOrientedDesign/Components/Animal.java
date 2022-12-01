@@ -1,48 +1,48 @@
 package OjbectOrientedDesign.Components;
 
 public class Animal {
-  protected String _petName;
-  protected String _scientificName;
-  protected String _commonName;
-  protected float _weight;
-  protected float _age;
-  protected int _numberOfLegs;
-  private AnimalType _type;
+  protected String petName;
+  protected String scientificName;
+  protected String commonName;
+  protected float weight;
+  protected float age;
+  protected int numberOfLegs;
+  private AnimalType animalType;
 
   public Animal() {
-    _numberOfLegs = 0;
-    _petName = "default";
-    _weight = 0.0f;
-    _scientificName = "default";
-    _commonName = "default";
-    _type = AnimalType.Default;
+    numberOfLegs = 0;
+    petName = "default";
+    weight = 0.0f;
+    scientificName = "default";
+    commonName = "default";
+    animalType = AnimalType.Default;
   }
 
   public String getName() {
-    return _petName;
+    return petName;
   }
 
   public void setName(String name) {
-    _petName = name;
+    petName = name;
   }
 
   public int getNumberOfLegs() {
-    return _numberOfLegs;
+    return numberOfLegs;
   }
 
   public String getScientificName() {
-    return _scientificName;
+    return scientificName;
   }
 
   public String getCommonName() {
-    return _commonName;
+    return commonName;
   }
 
   public AnimalType getType() {
-      return _type;
+      return animalType;
   }
 
   public float getAge() {
-      return _age;
+      return age;
   }
 }

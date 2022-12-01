@@ -3,6 +3,10 @@ package OjbectOrientedDesign.Components;
 public class Cat extends Animal {
     public Cat()
     {
-        _numberOfLegs = 4;
+        numberOfLegs = 4;
+    }
+    public void Say()
+    {
+        System.out.println("Meow!");
     }
 }
