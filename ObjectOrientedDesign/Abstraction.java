@@ -1,7 +1,7 @@
 
-package OjbectOrientedDesign;
+package ObjectOrientedDesign;
 
-import OjbectOrientedDesign.Components.Animal;
+import ObjectOrientedDesign.Components.Animal;
 
 /*
  * Animal class contains all the information related to only animal.

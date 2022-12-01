@@ -1,4 +1,4 @@
-package OjbectOrientedDesign.Components;
+package ObjectOrientedDesign.Components;
 
 import java.util.ArrayList;
 

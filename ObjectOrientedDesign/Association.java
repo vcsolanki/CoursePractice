@@ -1,6 +1,6 @@
-package OjbectOrientedDesign;
+package ObjectOrientedDesign;
 
-import OjbectOrientedDesign.Components.House;
+import ObjectOrientedDesign.Components.House;
 
 /*
  * House object is loosely related to Room object.

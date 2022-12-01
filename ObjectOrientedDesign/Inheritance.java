@@ -1,6 +1,6 @@
-package OjbectOrientedDesign;
+package ObjectOrientedDesign;
 
-import OjbectOrientedDesign.Components.Cat;
+import ObjectOrientedDesign.Components.Cat;
 
 /*
  * Cat object inherits Animal class.

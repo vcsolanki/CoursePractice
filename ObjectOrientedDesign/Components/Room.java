@@ -1,4 +1,4 @@
-package OjbectOrientedDesign.Components;
+package ObjectOrientedDesign.Components;
 
 public class Room {
     public int windowCount;
