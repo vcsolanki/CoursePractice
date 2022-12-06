@@ -10,12 +10,12 @@ public class Animal {
   private AnimalType animalType;
 
   public Animal() {
-    numberOfLegs = 0;
-    petName = "default";
-    weight = 0.0f;
+    numberOfLegs   = 0;
+    petName        = "default";
+    weight         = 0.0f;
     scientificName = "default";
-    commonName = "default";
-    animalType = AnimalType.Default;
+    commonName     = "default";
+    animalType     = AnimalType.Default;
   }
 
   public String getName() {
@@ -39,10 +39,10 @@ public class Animal {
   }
 
   public AnimalType getType() {
-      return animalType;
+    return animalType;
   }
 
   public float getAge() {
-      return age;
+    return age;
   }
 }

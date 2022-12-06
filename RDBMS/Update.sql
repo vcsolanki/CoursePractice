@@ -1,0 +1,1 @@
+UPDATE Student SET FirstName='Melody' WHERE id=2; 
