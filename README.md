@@ -5,4 +5,10 @@ This folder contains example of Java programs.
 Examples of SQL queries.
 ## Software Engineering
 ### Typescript
-This folder contains examples of Typescript language.
+This folder contains examples of Typescript language. 
+Using following node module `ts-node` to compile and run Typescript.
+
+```
+> ts-node HelloWorld.ts
+> Hello World!
+```
